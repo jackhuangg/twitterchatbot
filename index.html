@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch Chat Counter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div>
+    <div class="head">
+      <p>Twitch Mentions Scraper</p>
+        <form id="formstyle">
+          <label for="channel">Enter Channel</label><br>
+          <input type="text" id="channelinput"  name="name">
+          <input type="submit" value="Submit" id="button-send">
+        </form>
+        
+    </div>
+    <h1 id="status"></h1>
+    <h1 id="count">Waiting for mentions...</h1><br>
+    <h3 id="users"></h3>
+  </div>
+  <script src="tmi.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

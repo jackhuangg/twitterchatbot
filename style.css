@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #743ccb;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+img{
+   max-width: 30%;
+}
+.head p{
+    align-self: center;
+    justify-self: start;
+}
+#formstyle{
+    justify-self: end;
+}
+input{
+}
+
+#status,#count{
+    padding-left: 20px;
+}
+
+#users{
+    padding-left: 20px;
+    color: white;
+}
